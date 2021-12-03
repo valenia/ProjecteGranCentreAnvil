@@ -10,10 +10,12 @@
     <color name="darkgrey">#424242</color>
     <color name="white">#FFFFFFFF</color>
     <color name="marfil">#EFD0A3</color>
-    <color name="background">#FFFFFFFF</color>
+    <color name="background2">#FFFFFFFF</color>
     <color name="darkMarfil">#C4924A</color>
-    <color name="light_orange">#F8970C</color>
     <color name="background_business">#16989C</color>
     <color name="blue">#08A9FF</color>
     <color name="transparente">#00FFFFFF</color>
+    <color name="light_orange">#F18837</color>
+    <color name="background">#16989C</color>
+    <color name="light_marfil">#FFEED5</color>
 </resources>

@@ -123,7 +123,7 @@ public class business_TheFragmentPerruqueries extends Fragment implements View.O
 
     public void callNumber(){
         Intent callIntent = new Intent(Intent.ACTION_DIAL);
-        callIntent.setData(Uri.parse("tel:+34665869374"));
+        callIntent.setData(Uri.parse("tel:+34666125487"));
         startActivity(callIntent);
     }
 
