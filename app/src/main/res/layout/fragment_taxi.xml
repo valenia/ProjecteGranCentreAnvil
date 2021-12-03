@@ -15,7 +15,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:paddingHorizontal="5dp"
             android:paddingVertical="5dp">
             <ImageView
                 android:layout_width="70dp"
@@ -27,22 +26,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:layout_weight="1"
-                android:text="Taxis Granollers" />
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:scaleType="fitCenter"
-                android:layout_gravity="center_vertical"
-                android:src="@drawable/call"
-                android:layout_marginHorizontal="10dp"
-                android:id="@+id/taxigranollers"/>
+                android:text="512 Granollers - Les Franqueses del Vallès - Cànoves" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:paddingHorizontal="5dp"
             android:paddingVertical="5dp">
             <ImageView
                 android:layout_width="70dp"
@@ -53,23 +42,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_marginLeft="30dp"
-                android:text="Taxis Pepe"/>
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:scaleType="fitCenter"
-                android:layout_gravity="center_vertical"
-                android:src="@drawable/call"
-                android:layout_marginHorizontal="10dp"
-                android:id="@+id/taxipepe"/>
+                android:text="L1 Can Gili - Canovelles - Hospital - La Torreta"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:paddingHorizontal="5dp"
             android:paddingVertical="5dp">
             <ImageView
                 android:layout_width="70dp"
@@ -80,23 +59,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_marginLeft="30dp"
-                android:text="Here-Taxi" />
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:scaleType="fitCenter"
-                android:layout_gravity="center_vertical"
-                android:src="@drawable/call"
-                android:layout_marginHorizontal="10dp"
-                android:id="@+id/heretaxi"/>
+                android:text="L3 Plaça Europa - Granollers Centre - La Torreta - Hospital" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:paddingHorizontal="5dp"
             android:paddingVertical="5dp">
             <ImageView
                 android:layout_width="70dp"
@@ -107,17 +76,42 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_marginLeft="30dp"
-                android:text="Taxi Vallès" />
+                android:text="L6 Can Bassa - Granollers Centre - Hospital - Can Mònic - Corró d'Avall" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingVertical="5dp">
             <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
                 android:scaleType="fitCenter"
-                android:layout_gravity="center_vertical"
-                android:src="@drawable/call"
-                android:layout_marginHorizontal="10dp"
-                android:id="@+id/taxivalles"/>
+                android:src="@drawable/taxi"
+                android:layout_marginHorizontal="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="L20 Can Bassa - Can Mònic - Bellavista"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingVertical="5dp">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/taxi"
+                android:layout_marginHorizontal="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="L21 Can Bassa - Hospital"/>
         </LinearLayout>
 
     </LinearLayout>

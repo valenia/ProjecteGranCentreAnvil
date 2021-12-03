@@ -60,6 +60,24 @@
     <string name="mostrar_al_mapa">Mostrar al mapa</string>
     <string name="visitar_la_web">Visitar la web</string>
     <string name="mostrar_la_web">mostrar la web</string>
+    <string name="taller_martinet">Taller Martinet</string>
+    <string name="carrer_del_lliri_21_08402_ngranollers_barcelona">Carrer del Lliri, 21, 08402 \nGranollers, Barcelona</string>
+    <string name="ams_granollers">AMS Granollers</string>
+    <string name="carrer_de_pin_s_15_08402_granollers_barcelona">Carrer de Pinós, 15, 08402 Granollers, Barcelona</string>
+    <string name="mototrack_granollers">Mototrack Granollers</string>
+    <string name="carrer_d_enric_prat_de_la_nriba_74_08401_granollers">Carrer d\'Enric Prat de la \nRiba, 74, 08401 Granollers</string>
+    <string name="aduho_granollers">ADUHO GRANOLLERS</string>
+    <string name="carrer_de_roger_de_flor_10_n08401_granollers">Carrer de Roger de Flor, 10, \n08401 Granollers</string>
+    <string name="carol_bruguera">Carol Bruguera</string>
+    <string name="carrer_miquel_ricom_36_n08400_granollers">Carrer Miquel Ricomà, 36, \n08400 Granollers</string>
+    <string name="xavier_arcarons_perruquers">Xavier Arcarons Perruquers</string>
+    <string name="carrer_pr_ncep_de_viana_nn_6_08401_granollers">Carrer Príncep de Viana, \nnº6, 08401 Granollers</string>
+    <string name="l_engruna">L\'engruna</string>
+    <string name="carrer_de_santa_elisabet_n19_08401_granollers">Carrer de Santa Elisabet, \n19, 08401 Granollers</string>
+    <string name="el_rei_dels_caramels">El rei dels caramels</string>
+    <string name="pla_a_de_la_porxada_3_n08401_granollers">Plaça de la Porxada, 3, \n08401 Granollers</string>
+    <string name="brighty_amp_co"><![CDATA[Brighty&co]]></string>
+    <string name="carrer_sant_roc_7_n08401_granollers">Carrer Sant Roc, 7, \n08401 Granollers</string>
     <!-- Aina -->
     <string-array name="cangallina">
         <item>+34610680899</item>

@@ -149,7 +149,7 @@ public class Restaurants extends AppCompatActivity {
                 ArrayList<ClRestaurant> filteredRest = new ArrayList<ClRestaurant>();
                 for(ClRestaurant restaurant: restList )
                 {
-                    if(restaurant.getName().toLowerCase().contains(s.toLowerCase()))
+                    if(restaurant.getName().toLowerCase(Locale.ROOT).contains(s.toLowerCase()))
                     {
                         filteredRest.add(restaurant);
                     }
@@ -204,11 +204,11 @@ public class Restaurants extends AppCompatActivity {
     {
         restListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                ClRestaurant selectedRestaurant = (ClRestaurant) (restListView.getItemAtPosition(i));
-                Intent showDetails = new Intent(getApplicationContext(),RestDetails.class);
-                showDetails.putExtra("id",selectedRestaurant.getId());
-                startActivity(showDetails);
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                ClRestaurant selectedRest = (ClRestaurant) (restListView.getItemAtPosition(position));
+                Intent showDetailRest = new Intent(getApplicationContext(),RestDetails.class);
+                showDetailRest.putExtra("id",selectedRest.getId());
+                startActivity(showDetailRest);
             }
         });
     }

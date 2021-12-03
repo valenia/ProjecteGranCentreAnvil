@@ -1,7 +1,7 @@
 package com.example.projectegrancentre;
 
-public class ClRestaurant {
-
+public class ClRestaurant
+{
     private String id;
     private String name;
     private String descrip;
@@ -49,7 +49,7 @@ public class ClRestaurant {
     }
 
     public void setType(String type) {
-        this.type = type;
+        this.type = descrip;
     }
 
     //Getter nd setter Img
@@ -60,4 +60,5 @@ public class ClRestaurant {
     public void setImg(int img) {
         this.img = img;
     }
+
 }

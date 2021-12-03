@@ -9,19 +9,28 @@
     android:id="@+id/drawer_layout"
     tools:context=".MainActivity">
 
+
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/wallpaper"
+    android:background="@drawable/wallpaper_vertical"
     android:id="@+id/main_page">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="60dp"
+        android:text="Gran Centre\nGranollers"/>
 
     <GridLayout
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:layout_gravity="center"
         android:layout_marginVertical="80dp"
-        android:layout_centerInParent="true">
+        android:layout_centerInParent="true"
+        android:id="@+id/grid_buttons">
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
