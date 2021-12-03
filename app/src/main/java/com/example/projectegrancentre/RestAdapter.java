@@ -13,8 +13,7 @@ import androidx.annotation.Nullable;
 
 import java.util.List;
 
-public class RestAdapter extends ArrayAdapter<ClRestaurant>
-{
+public class RestAdapter extends ArrayAdapter<ClRestaurant> {
     public RestAdapter(Context context, int resource, List<ClRestaurant> restList)
     {
         super(context,resource,restList);

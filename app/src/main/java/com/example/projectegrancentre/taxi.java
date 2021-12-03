@@ -1,5 +1,7 @@
 package com.example.projectegrancentre;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,13 +9,16 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link taxi#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class taxi extends Fragment {
+public class taxi extends Fragment implements View.OnClickListener {
+
+    ImageView taxi1,taxi2,taxi3;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -59,6 +64,40 @@ public class taxi extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_taxi, container, false);
+        View v = inflater.inflate(R.layout.fragment_taxi, container, false);
+
+        //Gestionem els buttons per les trucades
+        taxi1 = (ImageView) v.findViewById(R.id.taxigranollers);
+        taxi1.setOnClickListener(this);
+        taxi2 = (ImageView) v.findViewById(R.id.taxipepe);
+        taxi2.setOnClickListener(this);
+        taxi3 = (ImageView) v.findViewById(R.id.heretaxi);
+        taxi3.setOnClickListener(this);
+
+        return v;
+    }
+
+    @Override
+    public void onClick(View view) {
+        int id = view.getId();
+
+        switch (id)
+        {
+            case R.id.taxigranollers:
+                {
+                    Intent intentCall = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:666666666"));
+                    startActivity(intentCall);
+                }
+            case R.id.taxipepe:
+            {
+                Intent intentCall = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:666666666"));
+                startActivity(intentCall);
+            }
+            case R.id.heretaxi:
+            {
+                Intent intentCall = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:666666666"));
+                startActivity(intentCall);
+            }
+        }
     }
 }

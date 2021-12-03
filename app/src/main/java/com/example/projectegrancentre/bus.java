@@ -1,5 +1,7 @@
 package com.example.projectegrancentre;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,13 +9,17 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageView;
 
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link bus#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class bus extends Fragment {
+public class bus extends Fragment implements View.OnClickListener {
+
+    ImageView bus1,bus2,bus3;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -59,6 +65,44 @@ public class bus extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_bus, container, false);
+        View v = inflater.inflate(R.layout.fragment_bus, container, false);
+
+        //Gestionem buttons de link amb horaris
+        bus1 = (ImageView) v.findViewById(R.id.bus1);
+        bus1.setOnClickListener(this);
+        bus2 = (ImageView) v.findViewById(R.id.bus2);
+        bus2.setOnClickListener(this);
+        bus3 = (ImageView) v.findViewById(R.id.bus3);
+        bus3.setOnClickListener(this);
+
+        return v;
+    }
+
+    @Override
+    public void onClick(View view) {
+        int id = view.getId();
+
+        //Només s'han marcat els link per les tres primeres línies
+        //Anava a fer el link amb els horaris de la web de busos, però donen problemes per obrir-los directament
+
+        switch (id)
+        {
+            case R.id.bus1:
+                {
+                    Intent intentWeb = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.transgran.cat/linies"));
+                    startActivity(intentWeb);
+                }
+            case R.id.bus2:
+                {
+                    Intent intentWeb = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.transgran.cat/linies"));
+                    startActivity(intentWeb);
+                }
+            case R.id.bus3:
+            {
+                Intent intentWeb = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.transgran.cat/linies"));
+                startActivity(intentWeb);
+            }
+        }
+
     }
 }

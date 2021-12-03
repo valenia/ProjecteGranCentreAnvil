@@ -26,7 +26,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
+                android:layout_weight="1"
                 android:text="Granollers - Centre"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/web"
+                android:layout_marginHorizontal="10dp"
+                android:id="@+id/granollerscentre"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -43,7 +52,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
+                android:layout_weight="1"
                 android:text="Granollers - Les franqueses"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/web"
+                android:layout_marginHorizontal="10dp"
+                android:id="@+id/granollersfranqueses"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -60,7 +78,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
+                android:layout_weight="1"
                 android:text="Granollers - Canovelles" />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/web"
+                android:layout_marginHorizontal="10dp"
+                android:id="@+id/granollerscanovelles"/>
         </LinearLayout>
 
 
