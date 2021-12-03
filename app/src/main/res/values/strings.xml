@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">projecteGranCentre</string>
+    <string name="imatge_negocis">Imatge Negocis</string>
+    <string name="imatge_restaurants">Imatge Restaurants</string>
+    <string name="imatge_hotels">Imatge Hotels</string>
+    <string name="imatge_cartellera">Imatge Cartellera</string>
+    <string name="imatge_transports">Imatge Transports</string>
+    <string name="imatge_parkings">Imatge Parkings</string>
+    <!-- Parkings & Hotels strings - Gerard -->
+    <string name="escull_la_categoria">Escull la categoria:</string>
+    <string-array name="hotels_array">
+        <item>Escull una opció</item>
+        <item>1 estrella</item>
+        <item>2 estrelles</item>
+        <item>3 estrelles</item>
+        <item>4 estrelles</item>
+        <item>5 estrelles</item>
+    </string-array>
+    <string-array name="tlf2estrelles">
+        <item>935689060</item> <!-- Ibis -->
+        <item>938407132</item> <!-- B&B -->
+        <item>938615558</item> <!-- Verti -->
+    </string-array>
+    <string-array name="web2estrelles">
+        <item>https://www.booking.com/hotel/es/ibis-montmelo-granollers.es.html</item> <!-- Ibis -->
+        <item>https://www.hotel-bb.com/es/hotel/barcelona-granollers</item> <!-- B&B -->
+        <item>http://www.hotelverti.com/</item> <!-- Verti -->
+    </string-array>
+    <string-array name="tlf3estrelles">
+        <item>938700312</item> <!-- Fonda -->
+        <item>938795100</item> <!-- Granollers -->
+        <item>938792929</item> <!-- Iris -->
+    </string-array>
+    <string-array name="web3estrelles">
+        <item>https://hotelfondaeuropa.com/</item> <!-- Fonda -->
+        <item>https://www.hotelgranollers.com/</item> <!-- Granollers -->
+        <item>https://www.hoteliris.com/</item> <!-- Iris -->
+    </string-array>
+    <string-array name="tlf4estrelles">
+        <item>938794820</item> <!-- Atenea -->
+        <item>938456050</item> <!-- Augusta -->
+        <item>938796220</item> <!-- Ciutat -->
+    </string-array>
+    <string-array name="web4estrelles">
+        <item>https://www.aparthotelateneavalles.com/</item> <!-- Atenea -->
+        <item>https://www.hotelaugustavalles.com/</item> <!-- Augusta -->
+        <item>https://www.hotelciutatgranollers.com/</item> <!-- Ciutat -->
+    </string-array>
+    <!-- Movies & Business strings - Denis -->
+    <string name="peli_1">Dune</string>
+    <string name="peli_2">Cazafantasmas: \nMés Enllà</string>
+    <string name="peli_3">Sense temps per morir</string>
+    <string name="peli_4">Deadpool 3</string>
+    <string name="peli_5">Predator</string>
+    <string name="peli_6">Pokemon</string>
+    <string name="peli_7">Hackers</string>
+    <string name="info">Info</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_textTrucarTel">Trucar per telèfon</string>
+    <string name="mostrar_al_mapa">Mostrar al mapa</string>
+    <string name="visitar_la_web">Visitar la web</string>
+    <string name="mostrar_la_web">mostrar la web</string>
+    <!-- Aina -->
+    <string-array name="cangallina">
+        <item>+34610680899</item>
+        <item>41.60738476622932,2.2890372796914997</item>
+        <item>https://cangallinagastrobar.com/</item>
+    </string-array>
+    <string-array name="larectoriadepalou">
+        <item>+34938706945</item>
+        <item>41.58893513827399,2.2798776917773327</item>
+        <item>http://www.larectoriadepalou.net/</item>
+    </string-array>
+    <string-array name="cityrestaurant">
+        <item>+34938796220</item>
+        <item>41.60103009575819,2.2958786924722103</item>
+        <item>http://www.ciutathotels.com/</item>
+    </string-array>
+    <string-array name="eltrull">
+        <item>+34938701517</item>
+        <item>41.608847322033704,2.290259837007332</item>
+        <item>http://www.eltrull.es/</item>
+    </string-array>
+    <string-array name="kodama">
+        <item>+34934637756</item>
+        <item>41.606317055643004,2.2896673281303843</item>
+        <item>https://www.espaikodama.com/</item>
+    </string-array>
+    <string-array name="naguabo">
+        <item>+34938707848</item>
+        <item>41.61015820819686,2.2892209577784546</item>
+        <item>http://www.naguabo.cat/</item>
+    </string-array>
+    <string-array name="portalvell">
+        <item>+34938415679</item>
+        <item>41.627200073801625,2.234847609971807</item>
+        <item>http://www.elportalvell.com/</item>
+    </string-array>
+    <string-array name="vinyam">
+        <item>+34930232899</item>
+        <item>41.607553420696746,2.2842096972568036</item>
+        <item>http://www.vinyam.es/</item>
+    </string-array>
+</resources>

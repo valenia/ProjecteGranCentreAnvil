@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/idBusinessMainFragment"
+    tools:context=".business_MainFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <!-- Tiendas -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_marginTop="50dp"
+                android:layout_width="325dp"
+                android:layout_height="470dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true">
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="280dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="top|center"
+                    android:layout_marginTop="20dp"
+                    app:shapeAppearanceOverlay="@style/roundedImageView"
+                    app:srcCompat="@drawable/business_botiga_img1" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="180dp"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textAllCaps="true"
+                    android:textColor="@color/darkgrey"
+                    android:text="L'engruna" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="215dp"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textAllCaps="true"
+                    android:text="Carrer de Santa Elisabet, \n19, 08401 Granollers" />
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center|end"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="15dp"
+                    android:src="@drawable/acceso"/>
+                <Button
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:id="@+id/btn_telBusinessTaller_7"
+                    app:cornerRadius="6dp"
+                    app:strokeWidth="3dp"
+                    android:textColor="@color/darkMarfil"
+                    app:strokeColor="@color/darkMarfil"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginBottom="130dp"
+                    android:text="@string/btn_textTrucarTel" />
+                <Button
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:id="@+id/btn_BusinessMap_7"
+                    app:cornerRadius="6dp"
+                    app:strokeWidth="3dp"
+                    android:textColor="@color/darkMarfil"
+                    app:strokeColor="@color/darkMarfil"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginBottom="80dp"
+                    android:text="@string/mostrar_al_mapa" />
+                <Button
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:id="@+id/btn_BusinessWeb_7"
+                    app:cornerRadius="6dp"
+                    app:strokeWidth="3dp"
+                    app:strokeColor="@color/grey"
+                    android:textColor="@color/grey"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginBottom="30dp"
+                    android:enabled="false"
+                    android:text="@string/mostrar_la_web" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_marginTop="50dp"
+                android:layout_width="325dp"
+                android:layout_height="470dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true">
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="280dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="top|center"
+                    android:layout_marginTop="20dp"
+                    app:shapeAppearanceOverlay="@style/roundedImageView"
+                    app:srcCompat="@drawable/business_botiga_img2" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="180dp"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textAllCaps="true"
+                    android:textColor="@color/darkgrey"
+                    android:text="El rei dels caramels" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="215dp"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textAllCaps="true"
+                    android:text="Plaça de la Porxada, 3, \n08401 Granollers" />
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center|end"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="15dp"
+                    android:src="@drawable/acceso"/>
+                <Button
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:id="@+id/btn_telBusinessTaller_8"
+                    app:cornerRadius="6dp"
+                    app:strokeWidth="3dp"
+                    android:textColor="@color/darkMarfil"
+                    app:strokeColor="@color/darkMarfil"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginBottom="130dp"
+                    android:text="@string/btn_textTrucarTel" />
+                <Button
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:id="@+id/btn_BusinessMap_8"
+                    app:cornerRadius="6dp"
+                    app:strokeWidth="3dp"
+                    android:textColor="@color/darkMarfil"
+                    app:strokeColor="@color/darkMarfil"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginBottom="80dp"
+                    android:text="@string/mostrar_al_mapa" />
+                <Button
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:id="@+id/btn_BusinessWeb_8"
+                    app:cornerRadius="6dp"
+                    app:strokeWidth="3dp"
+                    app:strokeColor="@color/grey"
+                    android:textColor="@color/grey"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginBottom="30dp"
+                    android:enabled="false"
+                    android:text="@string/mostrar_la_web" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_marginTop="50dp"
+                android:layout_width="325dp"
+                android:layout_height="470dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true">
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="280dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="top|center"
+                    android:layout_marginTop="20dp"
+                    app:shapeAppearanceOverlay="@style/roundedImageView"
+                    app:srcCompat="@drawable/business_botiga_img3" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="180dp"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textAllCaps="true"
+                    android:textColor="@color/darkgrey"
+                    android:text="Brighty&amp;co" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="215dp"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textAllCaps="true"
+                    android:text="Carrer Sant Roc, 7, \n08401 Granollers" />
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center|end"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="15dp"
+                    android:src="@drawable/acceso"/>
+                <Button
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:id="@+id/btn_telBusinessTaller_9"
+                    app:cornerRadius="6dp"
+                    app:strokeWidth="3dp"
+                    android:textColor="@color/darkMarfil"
+                    app:strokeColor="@color/darkMarfil"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginBottom="130dp"
+                    android:text="@string/btn_textTrucarTel" />
+                <Button
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:id="@+id/btn_BusinessMap_9"
+                    app:cornerRadius="6dp"
+                    app:strokeWidth="3dp"
+                    android:textColor="@color/darkMarfil"
+                    app:strokeColor="@color/darkMarfil"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginBottom="80dp"
+                    android:text="@string/mostrar_al_mapa" />
+                <Button
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:id="@+id/btn_BusinessWeb_9"
+                    app:cornerRadius="6dp"
+                    app:strokeWidth="3dp"
+                    android:textColor="@color/darkMarfil"
+                    app:strokeColor="@color/darkMarfil"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginBottom="30dp"
+                    android:text="@string/visitar_la_web" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Tarjeta de relleno -->
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="50dp"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/transparente">
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

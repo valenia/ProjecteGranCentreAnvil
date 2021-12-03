@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".parking">
+    <!-- Eva, sols he fet el layout en vertical/protrait, ja que tal i com l'he
+    dissenyat el telefon ja mostra be el layout encara que el tombi i el posi en horitzontal
+    o landscape, es per aixo que no he creat un altre layout especific -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:backgroundTint="@color/background"
+        android:background="@color/white"
+        android:id="@+id/parkings_page">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/topAppbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:title="Gran Centre"
+                android:background="@color/marfil"
+                app:navigationIcon="@drawable/ic_menu"
+                />
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/border"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/parking1"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/auditori" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="PARKING AUDITORI\nEntrades:\nCarrer Ponent,41\nCarrer Rafael Casanova,38\nTelefon:\n93 846 47 27\nHORARI:\n24h els 365 dies\n\n\n"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/border"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/parking2"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/escolapi" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="PARKING ESCOLAPI\nEntrades:\nCarrer Francisco de Quevedo,S/N\nCarrer Orient\nTelefon:\n93 879 61 08\nHORARI:\nDe dilluns a divendres de 7 a 22h\n
+                Dissabtes de 8:30 a 22h\nDiumenges tancat\n\n\n"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/border"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/parking3"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/corona" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="PARKING CORONA\nEntrades:\nCarrer Palaudàries,21\nCarrer St. Josep de Calassanç, 16\nTelefon:\n93 860 66 90\nHORARI:\nDe dilluns a divendres de 7 a 22h\n
+                Dissabtes de 8:30 a 22h\nDiumenges tancat. Festius Comercials Obert\n\n\n"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/border"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/parking4"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/atenea" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="PARKING ATENEA\nEntrades:\nPsg. Cristòfol Colom, 21\nPtge. Alvarez de Castro,3 \nTelefon:\n93 870 41 35\nHORARI:\nDe dilluns a divendres de 7 a 22h\nFestius tancat"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:id="@+id/lateral_menu"
+        app:headerLayout="@layout/menu_header"
+        app:menu="@menu/navigation_items">
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

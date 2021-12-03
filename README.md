@@ -1,2 +1,3 @@
-# ProjecteGranCentreAnvil
-Repositori final del projecte Gran Centre Granollers
+# projecteGranCentre
+Projecte Gran Centre M8
+#terrific readme

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Inici"/>
+    <item
+        android:id="@+id/nav_business"
+        android:icon="@drawable/ic_business"
+        android:title="Comerços"/>
+    <item
+        android:id="@+id/nav_movie"
+        android:icon="@drawable/ic_movie"
+        android:title="Pel·lícules"/>
+    <item
+        android:id="@+id/nav_parking"
+        android:icon="@drawable/ic_parking"
+        android:title="Parking"/>
+    <item
+        android:id="@+id/nav_hotels"
+        android:icon="@drawable/ic_hotel"
+        android:title="Hotels"/>
+    <item
+        android:id="@+id/nav_restaurants"
+        android:icon="@drawable/ic_restaurant"
+        android:title="Restaurants"/>
+    <item
+        android:id="@+id/nav_transport"
+        android:icon="@drawable/ic_transport"
+        android:title="Transports"/>
+
+</menu>
