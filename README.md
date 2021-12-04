@@ -19,8 +19,8 @@
 <p>Els apartats corresponents a Business, Hotels i Restaurants són els de més complexitat, ja que requeixen de disposar de filtres per cercar tipologies de cormerços i restaurants i categories d'hotels.</p>
 <h2>Captures dels diferents apartats:</h2>
 <h3>Business</h3>
-<div style="display: inline-block;">
-<img src="./img/negocis1.png" alt="Portada app" height="300" style="margin-left: 10px;">
+<div style="display: inline-block;text-align: center;">
+<img src="./img/negocis1.png" alt="Portada app" height="300">
 <img src="./img/negocis2.png" alt="Portada app" height="300">
 <img src="./img/negocis3.png" alt="Portada app" height="300">
 <img src="./img/negocis4.png" alt="Portada app" height="300">
