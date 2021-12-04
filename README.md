@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-  img {margin-left: 3vw;}
-</style>
-</head>
 <body>
 
 <h1>Projecte Gran Centre - Granollers</h1>
@@ -25,7 +20,7 @@
 <h2>Captures dels diferents apartats:</h2>
 <h3>Business</h3>
 <div style="display: inline-block;">
-<img src="./img/negocis1.png" alt="Portada app" height="300">
+<img src="./img/negocis1.png" alt="Portada app" height="300" style="margin-left: 3vw;">
 <img src="./img/negocis2.png" alt="Portada app" height="300">
 <img src="./img/negocis3.png" alt="Portada app" height="300">
 <img src="./img/negocis4.png" alt="Portada app" height="300">
